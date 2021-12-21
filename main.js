@@ -5,9 +5,9 @@ let resultado = document.querySelector('#resultado')
 
 
 btn.addEventListener('click',()=>{
-    let dolar_1 = 98
+    let dolar_1 = 200
     let pesoArg = document.querySelector('#pesoArg').value*dolar_1
-    resultado.innerHTML =  pesoArg
+    resultado.innerHTML =  pesoArg +='$'
 
 })
 
