@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    margin: 1em;
+    color: rgb(58, 58, 58);
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 50%;
+    border: 1px solid rgb(34, 214, 238);
+    height: 300px;
+}
+#pesoArg, #Dolar{
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(58, 176, 223);
+    padding-left: 1em;
+    outline: none;
+    font-size: 2rem;
+    color: rgb(65, 65, 65);
+}
+#Dolar{
+   padding-bottom: 1em;
+}
+#btn{
+    margin-top: 2em;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(82, 206, 88);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+label{
+    margin-top: 1em;
+    color: grey;
+    margin-bottom: 1em;
+}
